@@ -1,0 +1,32 @@
+/*MAIN-TRANG CHỦ*/
+
+.navbar-nav li a{
+	font-size: 16px;
+}
+
+.thumbnail-homepage .thumbnail{
+	height: 150px;
+	background: #1626;
+}
+
+.thumbnail-homepage h3{
+	margin: 0;
+	text-align: center;	
+	padding-top: 50px;	
+	
+}
+
+.bootstrap1{
+	display: none;
+}
+.bootstrap2{
+	display: inline;
+}
+@media screen and (max-width: 800px) {
+	.bootstrap1{
+	display: inline;
+}
+.bootstrap2{
+	display: none!important;
+}
+}
